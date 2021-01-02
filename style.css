@@ -1,0 +1,55 @@
+body{
+    height: 80vh;
+    background-color: cadetblue;
+    text-align: center;
+}
+h2{
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(197, 197, 197);
+    letter-spacing: 1px;
+}
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 196, 137);
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+.box{
+    height: 20rem;
+    width: 20rem;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.box button{
+    border: 1px solid rgb(238, 148, 116);
+    background-color: rgb(33, 138, 103);
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+.box button:hover{
+    transform: scale(.99);
+}
+.won{
+    display: none;
+    background-color: rgb(18, 134, 57);
+    color: rgb(228, 239, 248);
+    margin: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.reset{
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+.reset:hover{
+    color: black;
+    cursor: pointer;
+    transform: scale(.5);
+}
